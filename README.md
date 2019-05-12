@@ -13,4 +13,4 @@ password=<password>
 secret_key=<secret_key>
 
 
-This is from (my repo)[https://github.com/theburntcity/flask-login]  
+This is from [my repo](https://github.com/theburntcity/flask-login)  
