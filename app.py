@@ -70,7 +70,8 @@ def beos():
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for('home'))
+    form = BELIF()
+    return render_template('access.html', form = form)
 
 if __name__ == '__main__':
     app.run(debug=True)
